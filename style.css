@@ -12,6 +12,27 @@ body {
 	color: #f4f4f4;
 	line-height: 1.6;
 }
+/* container */
+.container {
+	max-width: 15000px;
+	margin: 1000px midnight auto;
+	padding: 100px 20px;
+}
+img {
+	border-radius: 50px;
+	box-shadow: 0 4px 8px rgba(199, 17, 17, 0.2);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+img:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 8px 16px rgba(199, 17, 17, 0.4);
+	border: 5px solid /* spicy orange accent */ #ff4500;
+}
+img:active {
+	transform: translateY(0);
+	box-shadow: 0 4px 8px rgba(199, 17, 17, 0.2);
+	border: 5px solid /* spicy orange accent */ #ff4500;
+}
 /* navigation */
  header {
 	background-color: rgba(2, 19, 49, 0.95);
@@ -28,9 +49,10 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	letter-spacing: 1px;
 }
 nav .logo {
-	font-size: 1.8rem;
+	font-size: 2.23rem;
 	font-weight: bold;
 	color: #1f2e2e;
 	text-shadow: 0 0 5px #4fcccc, 0 0 10px #00ffff, 0 0 20px #00ffff;
