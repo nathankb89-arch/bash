@@ -1,0 +1,35 @@
+# grid.html
+
+This file demonstrates the use of CSS Grid layout in HTML. It includes examples of creating responsive grids, aligning items, and customizing grid columns and rows.
+
+## Features
+- Responsive grid layout
+- Customizable columns and rows
+- Item alignment and spacing
+
+## Usage
+Open `grid.html` in your browser to view the grid examples. Modify the CSS and HTML to experiment with different grid configurations.
+
+## Example
+```html
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+</div>
+```
+
+```css
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.grid-item {
+  background: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+```
+    
